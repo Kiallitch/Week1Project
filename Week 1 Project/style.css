@@ -1,0 +1,65 @@
+nav {
+background-color: #fff;
+vertical-align: middle;
+}
+
+.nav-row {
+  display: flex;
+  justify-content: space-around;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #FFF;
+}
+
+#main {
+  background-color: silver;
+  padding: 15px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ol {
+  list-style-type: none;
+}
+
+nav a {
+  color: #2B2F26;
+}
+
+h1 {
+  text-align: center;
+  font-family: Roboto, sans-serif;
+}
+
+h3 {
+  text-align: center;
+  font-family: Lato, sans-serif;
+}
+
+.container {
+  display: flex;
+}
+
+.product {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.product1 {
+  height: 300px;
+}
+
+.product2 {
+  height: 148px;
+}
+
+footer {
+  background-color: gray;
+  color: white;
+  padding: 10px;
+  font-family: Lato, sans-serif;
+  size: 6pt;
+}

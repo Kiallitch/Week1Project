@@ -1,0 +1,90 @@
+body {
+  background-image: url('images/background-1.jpg');
+  background-size: cover;
+}
+
+nav {
+background-color: #fff;
+vertical-align: middle;
+}
+
+.nav-row {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #FFF;
+}
+
+#main {
+  background-color: silver;
+  padding: 15px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ol {
+  list-style-type: none;
+}
+
+nav a {
+  color: #2B2F26;
+}
+
+form {
+  background-color: #fff;
+  padding: 30px;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+label {
+  color: gray;
+}
+
+input {
+  border-style: hidden;
+}
+
+.name {
+  padding: 5px;
+  font-family: Roboto;
+  font-size: 25px;
+  border-style: solid;
+  /* border-collapse: collapse; */
+  border-color: #968772;
+  border-width: 0 0 3 0;
+
+}
+
+h1 {
+  text-align: center;
+  font-family: Roboto, sans-serif;
+}
+
+h3 {
+  text-align: center;
+  font-family: Lato, sans-serif;
+}
+
+#submit_button {
+  background-color: 968772;
+  padding: 15px;
+  font-size: 18pt;
+  color: #fff;
+  font-family: Lara;
+}
+
+.submit_container {
+  background-color: #fff;
+  color: #fff;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  text-align: center;
+}
